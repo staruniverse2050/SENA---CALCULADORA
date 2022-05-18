@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="imagenes/SENA.jpg" type="i,mage/x-coin">
+    <link rel="stylesheet" href="css/estil.css">
+</head>
+
+<center>
+    <h1>CALCULADORA</h1>
+    <p>Maite Salome Martinez Restrepo - ADSI - 2469285</p>
+    <div id="calculadora">
+        <div id="cajadecotenido">
+            <input type="text" id='display' disabled='true'>
+        </div>
+        <div id="Botonesdecontenido">
+            <button id='numero' onmousedown='mostrar("1")'>1</button>
+            <button id='numero' onmousedown='mostrar("2")'>2</button>
+            <button id='numero' onmousedown='mostrar("3")'>3</button>
+            <button id='numero' onmousedown='mostrar("*")'>*</button>
+            <button id="Borrar" onclick="Borrar()">Borrar</button>
+            <button id='numero' onmousedown='mostrar("4")'>4</button>
+            <button id='numero' onmousedown='mostrar("5")'>5</button>
+            <button id='numero' onmousedown='mostrar("6")'>6</button>
+            <button id='numero' onmousedown='mostrar("/")'>/</button>
+            <button id='numero' onmousedown='mostrar("+")'>+</button>
+            <button id='numero' onmousedown='mostrar("8")'>8</button>
+            <button id='numero' onmousedown='mostrar("9")'>9</button>
+            <button id='numero' onmousedown='mostrar("7")'>7</button>
+            <button id='numero' onmousedown='mostrar("-")'>-</button>
+            <button id='numero' onclick="Raiz()" onmousedown='mostrar("√")'>√</button>
+            <button id='numero' onmousedown='mostrar("0")'>0</button>
+            <button id='sin' onclick="seno()" onmousedown='mostrar("sin")'>sin</button>
+            <button id='cos' onclick="coseno()" onmousedown='mostrar(" cos ")'>cos</button>
+            <button id='tan' onclick="tangente()" onmousedown='mostrar(" tan ")'>tan</button>
+            <button id='Igual' onclick="Igual() ">=</button>
+
+</center>
+
+<script src="javascript/Calculadora.js"></script>
+
+</html>
