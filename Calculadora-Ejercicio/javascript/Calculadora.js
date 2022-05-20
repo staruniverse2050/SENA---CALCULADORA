@@ -4,23 +4,12 @@ function Borrar() {
     location.reload()
 }
 
-function mostrar(value) {
-    const operaciones = ['* ', '+ ', '- ', '/ ', 'Raiz', 'sin ', 'cos ', 'tan '];
-
-    screen.value = value;
-    if (operaciones.includes(value)) {
-        screen.value = screen.value + value;
-    }
-
-
-}
 var cantidad = "";
 var sumatoria = 0;
 var senon = false;
 var cosenon = false;
 var tangenten = false;
 var Raizo = false;
-
 
 
 function mostrar(numero) {
