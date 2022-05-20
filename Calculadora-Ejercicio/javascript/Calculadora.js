@@ -1,7 +1,6 @@
 var screen = document.querySelector('#display');
 
 function Borrar() {
-    document.getElementById("display");
     location.reload()
 }
 
